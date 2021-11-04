@@ -1,0 +1,309 @@
+.jumbotron {
+    background-image: url(galery/bunga.png);
+    background-size: cover;
+    margin-top: -100px;
+    height: 350px;
+}
+
+.display-4 {
+    font-family: 'Rouge Script', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 25px;
+}
+
+.lead {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 15px;
+}
+.orang {
+    background-image: url(galery/hp.png);
+    background-size: cover;
+    background-position: center;
+}
+.salam {
+    font-family: 'Rouge Script', cursive;
+    font-size: 30px;
+}
+.salam1 {
+    font-size: 13px;
+    font-family: 'Merienda', cursive;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.fatullah {
+    font-family: 'Rouge Script', cursive;
+    text-shadow: 1px 1px 1px rgb(209, 207, 207);
+    font-size: 35px;
+    font-weight: 600;
+}
+.putra {
+    font-family: 'Merienda', cursive;
+    text-shadow: 1px 1px 1px rgb(209, 207, 207);
+    margin-top: -17px;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.dengan {
+    font-family: 'Rouge Script', cursive;
+    text-shadow: 1px 1px 1px rgb(209, 207, 207);
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -50;
+    margin-bottom: 50;
+}
+.arrum {
+    background-image: url(galery/gunungbaru.png);
+    background-size: cover;
+    margin-top: 10px;
+}
+.surah {
+    font-family: 'Merienda', cursive;
+    text-align: center; 
+    font-size: 25px;
+    margin-top: 20px;   
+    margin-bottom: 25px;   
+}
+.ayat {
+    font-size: 20px;
+    font-family: 'Scheherazade New', serif;
+    text-align: center;
+}
+.arti {
+    font-size: 12px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgb(209, 207, 207);
+}
+.save {
+    font-family: 'Rouge Script', cursive;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    font-size: 60px;
+    text-shadow: 1px 2px 1px rgb(209, 207, 207);
+}
+.waktu {
+    font-family: 'Rouge Script', cursive;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-shadow: 1px 2px 1px rgb(209, 207, 207);
+}
+.bgrn {
+    background-image: url(galery/bck.png);
+    width: auto;
+    height: 1250px;
+}
+.ahad {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.peta {
+    width: 100%;
+    height: 80%;
+
+}
+.btn {
+    text-align: center;
+}
+.doa {
+    background-image: url(galery/lamp.jpg);
+    background-size: cover;
+    height: 1200px;
+    margin-bottom: -30px;
+}
+.footer {
+    font-size: 12px;
+    padding-block-end: 1;
+}
+.lagu{
+    position: fixed;
+    bottom: 0;
+    z-index: 99999;
+    margin-bottom: 20px;
+}
+.lagu .btn{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.scroll {
+    display:block;
+    font-family: 'Merienda', cursive;
+    text-shadow: 1px 2px 1px rgb(209, 207, 207);
+    border: 1px solid rgb(172, 172, 172);
+    padding:50px;
+    margin-top:5px;
+    width:340px;
+    height:400px;
+    overflow:scroll;
+    }
+    .auto {
+     display:block;
+     font-family: 'Merienda', cursive;
+     text-shadow: 1px 2px 1px rgb(209, 207, 207);
+     border: 1px solid rgb(172, 172, 172);
+     padding:50px;
+     margin-top:5px;
+     width:340px;
+     height:400px;
+     overflow:auto;
+    }
+
+
+
+
+/* DESKTOP VERTION */
+@media (min-width: 992px) {
+    .jumbotron {
+        background-image: url(galery/bunga.png);
+        background-size: cover;
+        height: 700px;
+    }
+    .display-4 {
+        font-family: 'Rouge Script', cursive;
+        text-align: center;
+        font-size: 90px;
+        font-weight: 550;
+        margin-top: 200px;
+    }
+    .lead {
+        font-family: 'Merienda', cursive;
+        text-align: center;
+        margin-top: 45px;
+        font-size: 25px;
+    }
+    .orang {
+        background-image: url(galery/orang.png);
+        background-size: cover;
+    }
+    .salam {
+        font-family: 'Rouge Script', cursive;
+        font-size: 50px;
+    }
+    .salam1 {
+        font-size: 20px;
+        font-family: 'Merienda', cursive;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .fatullah {
+        font-family: 'Rouge Script', cursive;
+        font-size: 75px;
+        font-weight: 500;
+    }
+    .putra {
+        font-family: 'Merienda', cursive;
+        margin-top: -27px;
+        font-size: 20px;
+        
+    }
+    .dengan {
+        font-family: 'Rouge Script', cursive;
+        font-size: 100px;
+        font-weight: 550;
+    }
+    .arrum {
+        background-image: url(galery/gunungbaru.png);
+        background-size: cover;
+        margin-top: 70px;
+    }
+    .surah {
+        font-family: 'Merienda', cursive;
+        text-align: center; 
+        font-size: 35px;
+    }
+    .ayat {
+        font-size: 40px;
+        margin-top: 50px;
+        font-family: 'Scheherazade New', serif;
+        text-align: center;
+    }
+    .arti {
+        font-size: 23px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-weight: 500;
+        font-family: 'Merienda', cursive;
+        text-align: center;
+        text-shadow: 3px 2px 1px rgb(209, 207, 207);
+    }
+    .save {
+        font-family: 'Rouge Script', cursive;
+        font-size: 90px;
+        margin-top: 100px;
+        text-shadow: 3px 2px 1px rgb(209, 207, 207);
+        margin-bottom: 50px;
+        font-weight: 500;
+    }
+    .waktu {
+        font-family: 'Rouge Script', cursive;
+        text-align: center;
+        font-size: 60px;
+        margin-bottom: 30px;
+        text-shadow: 3px 2px 1px rgb(209, 207, 207);
+        
+    }
+    .bgrn {
+        background-image: url(galery/bck.png);
+        background-size: cover;
+        height: 1150px;
+    }
+    .ahad {
+        text-align: center;
+        font-family: 'Merienda', cursive;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .peta {
+        width: 80%;
+        height: 90%;
+    }
+    .doa {
+        background-image: url(galery/lamp.jpg);
+        width: auto;
+        height: 1210px;
+    }
+    .footer {
+        font-size: 12px;
+    }
+
+    
+    .scroll {
+    display:block;
+    border: 1px solid rgb(153, 197, 253);
+    padding:30px;
+    margin-top:10px;
+    width:550px;
+    height:400px;
+    overflow:scroll;
+    }
+    .auto {
+     display:block;
+     border: 1px solid rgb(153, 197, 253);
+     padding:30px;
+     margin-top:10px;
+     width:550px;
+     height:400px;
+     overflow:auto;
+    }
+    .lagu{
+        position: fixed;
+        bottom: 0;
+        z-index: 99999;
+        margin-bottom: 20px;
+    }
+    .lagu .btn{
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+
+}
