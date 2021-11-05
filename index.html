@@ -230,43 +230,11 @@
   </div>
   <!-- akhir audio -->
 
-  <!-- Java -->
-  <script>
-    const myAudio = document.getElementById("audio");
-    const btn = document.getElementById("btn-playback");
-    const btnIcon = document.querySelector("#btn-playback > i");
-    const btnText = document.getElementById("btn-text");
-    
-    const toggleMusic = () => {      
-      const dataPlay = btn.getAttribute('data-play');
-            
-      if(dataPlay === 'false') {
-        btn.setAttribute('data-play', 'true');
-        myAudio.play();
-        btnIcon.classList.remove("fa-play");
-        btnIcon.classList.add("fa-pause");
-        btnText.innerText = "";
-      } else {
-        btn.setAttribute('data-play', 'false');
-        myAudio.pause();
-        btnIcon.classList.remove("fa-pause");
-        btnIcon.classList.add("fa-play");
-        btnText.innerText = "";
-      }
-    };
-    
-    myAudio.onpause = () => {
-      btn.setAttribute('data-play', 'false');
-        myAudio.pause();
-        btnIcon.classList.remove("fa-pause");
-        btnIcon.classList.add("fa-play");
-        btnText.innerText = "";
-    };
-  </script>
+  <script src="musik.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-  </script> 
-  
   <!-- google sheet -->
   <!-- <script>
     const scriptURL =
@@ -297,4 +265,5 @@
   </script> -->
   <!-- akhir google sheet -->
 </body>
+
 </html>
