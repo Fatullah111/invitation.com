@@ -117,7 +117,7 @@
 .doa {
     background-image: url(galery/lamp.jpg);
     background-size: cover;
-    height: 1200px;
+    height: 1850px;
     margin-bottom: -30px;
 }
 .footer {
@@ -133,6 +133,14 @@
 .lagu .btn{
     border: 2px solid black;
     border-radius: 50%;
+}
+.pks{
+    font-size: 15px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    text-shadow: 3px 2px 1px rgb(209, 207, 207);
+    
+    
 }
 
 .scroll {
@@ -270,7 +278,7 @@
     .doa {
         background-image: url(galery/lamp.jpg);
         width: auto;
-        height: 1210px;
+        height: 1600px;
     }
     .footer {
         font-size: 12px;
@@ -305,5 +313,4 @@
         border: 2px solid rgb(63, 63, 63);
         border-radius: 50%;
     }
-
 }
