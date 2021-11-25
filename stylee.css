@@ -117,7 +117,7 @@
 .doa {
     background-image: url(galery/lamp.jpg);
     background-size: cover;
-    height: 1850px;
+    height: 1900px;
     margin-bottom: -30px;
 }
 .footer {
@@ -278,7 +278,7 @@
     .doa {
         background-image: url(galery/lamp.jpg);
         width: auto;
-        height: 1600px;
+        height: 1650px;
     }
     .footer {
         font-size: 12px;
